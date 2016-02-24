@@ -47,7 +47,7 @@ public class GcmIntentService extends IntentService {
 
 		NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(
 				this)
-				.setSmallIcon(R.drawable.ic_stat_cloud)
+				.setSmallIcon(R.mipmap.ic_launcher)
 				.setContentTitle("Received GCM Message")
 				.setStyle(new NotificationCompat.BigTextStyle().bigText(message))
 				.setContentText(message).setTicker(message)
