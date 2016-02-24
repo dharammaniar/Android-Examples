@@ -7,11 +7,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.dharammaniar.androidexamples.MainActivity">
+    android:orientation="vertical"
+    tools:context=".ServicesActivity">
 
     <Button
-        android:id="@+id/activity_main_services"
+        android:id="@+id/activity_services_service1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/services"/>
+        android:text="@string/service1"/>
+
+    <Button
+        android:id="@+id/activity_services_service2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/service2"/>
 </LinearLayout>
