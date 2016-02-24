@@ -18,11 +18,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ServicesActivity"
+            android:name=".services.ServicesActivity"
             android:label="Services">
         </activity>
 
-        <service android:name=".Service1"/>
+        <service android:name=".services.Service1"/>
     </application>
 
 </manifest>

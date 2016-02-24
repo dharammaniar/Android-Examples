@@ -1,6 +1,5 @@
-package com.dharammaniar.androidexamples;
+package com.dharammaniar.androidexamples.services;
 
-import android.app.IntentService;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
@@ -11,28 +10,17 @@ import android.widget.Toast;
 /**
  * @author dharam
  */
-public class Service2 extends IntentService {
+public class Service1 extends Service {
 
     private Context mContext;
-    private static final String TAG = "Service2";
+    private static final String TAG = "Service1";
 
-    /**
-     * Creates an IntentService.  Invoked by your subclass's constructor.
-     *
-     * @param name Used to name the worker thread, important only for debugging.
-     */
-    public Service2(String name) {
-        super(name);
-    }
-
-    public Service2() {
-        super(TAG);
-    }
-
+    @Nullable
     @Override
-    protected void onHandleIntent(Intent intent) {
-
+    public IBinder onBind(Intent intent) {
+        return null;
     }
+
 
     @Override
     public void onCreate() {
