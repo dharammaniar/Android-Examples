@@ -7,4 +7,9 @@
     <string name="alarms">Alarms</string>
     <string name="alarmservice1">Alarm Service 1</string>
     <string name="alarmservice2">Alarm Service 2</string>
+    <string name="register">Register</string>
+    <string name="unregister">UnRegister</string>
+    <string name="send_label">Send</string>
+    <string name="clear_label">Clear</string>
+    <string name="gcm">GCM</string>
 </resources>

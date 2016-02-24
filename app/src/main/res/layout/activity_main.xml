@@ -22,4 +22,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/alarms"/>
+
+    <Button
+        android:id="@+id/activity_main_gcm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/gcm"/>
 </LinearLayout>
