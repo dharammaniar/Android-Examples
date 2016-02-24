@@ -100,8 +100,8 @@ public class CommunicationMain extends Activity implements OnClickListener {
 				msgParams.put("data.message", message);
 				GcmNotification gcmNotification = new GcmNotification();
 				regIds.clear();
-				//regIds.add(reg_device);
-				regIds.add("APA91bGarui7F30MKWNSBmxsA2gJepsr3Cltjm47VzEBpYmuGKg6O4lZyXpdhMo5Q1wxlb9m0AYMLtt9hSx4QDy8j12xYhBlf5lxanIt_w4JUtkJAH0VxQXUPA18ejFLY3yMbpWbQhl8SJucwB25qPc19hd-ZRuAYg");
+				regIds.add(reg_device);
+				//regIds.add("APA91bGarui7F30MKWNSBmxsA2gJepsr3Cltjm47VzEBpYmuGKg6O4lZyXpdhMo5Q1wxlb9m0AYMLtt9hSx4QDy8j12xYhBlf5lxanIt_w4JUtkJAH0VxQXUPA18ejFLY3yMbpWbQhl8SJucwB25qPc19hd-ZRuAYg");
 				gcmNotification.sendNotification(msgParams, regIds,CommunicationMain.this);
 				return "Message Sent - " + message;
 			}
