@@ -4,4 +4,7 @@
     <string name="services">Services</string>
     <string name="service1">Service 1</string>
     <string name="service2">Service 2</string>
+    <string name="alarms">Alarms</string>
+    <string name="alarmservice1">Alarm Service 1</string>
+    <string name="alarmservice2">Alarm Service 2</string>
 </resources>

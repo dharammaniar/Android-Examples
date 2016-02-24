@@ -23,6 +23,14 @@
         </activity>
 
         <service android:name=".services.Service1"/>
+
+        <activity
+            android:name=".alarms.AlarmActivity"
+            android:label="Alarms">
+        </activity>
+
+        <service android:name=".alarms.AlarmService1"/>
+
     </application>
 
 </manifest>

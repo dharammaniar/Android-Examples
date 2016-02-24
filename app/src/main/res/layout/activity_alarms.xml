@@ -8,18 +8,18 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.dharammaniar.androidexamples.MainActivity">
+    tools:context=".alarms.AlarmActivity">
 
     <Button
-        android:id="@+id/activity_main_services"
+        android:id="@+id/activity_alarm_alarmService1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/services"/>
+        android:text="@string/alarmservice1"/>
 
     <Button
-        android:id="@+id/activity_main_alarms"
+        android:id="@+id/activity_alarm_alarmService2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/alarms"/>
+        android:layout_height="wrap_content"
+        android:text="@string/alarmservice2"/>
 </LinearLayout>

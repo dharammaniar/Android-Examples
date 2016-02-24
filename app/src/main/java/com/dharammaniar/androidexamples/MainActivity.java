@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.dharammaniar.androidexamples.alarms.AlarmActivity;
 import com.dharammaniar.androidexamples.services.ServicesActivity;
 
 /**
@@ -14,6 +15,7 @@ import com.dharammaniar.androidexamples.services.ServicesActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button serviceButton;
+    private Button alarmButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initViews() {
         serviceButton = (Button) findViewById(R.id.activity_main_services);
         serviceButton.setOnClickListener(this);
+        alarmButton = (Button) findViewById(R.id.activity_main_alarms);
+        alarmButton.setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +36,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v.getId() == serviceButton.getId()) {
             Intent servicesIntent = new Intent(MainActivity.this, ServicesActivity.class);
             startActivity(servicesIntent);
+        }
+        if (v.getId() == alarmButton.getId()) {
+            Intent alarmIntent = new Intent(MainActivity.this, AlarmActivity.class);
+            startActivity(alarmIntent);
         }
     }
 }
